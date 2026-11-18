@@ -1,0 +1,47 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Local application configuration
+application-local.properties
+application-secret.properties
+
+# Java / Maven
+**/target/
+*.class
+*.jar
+*.war
+
+# Node / React
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# TypeScript build cache
+*.tsbuildinfo
